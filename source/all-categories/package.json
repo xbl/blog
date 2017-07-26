@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "hexo-deployer-git": "^0.3.0"
+  }
+}
