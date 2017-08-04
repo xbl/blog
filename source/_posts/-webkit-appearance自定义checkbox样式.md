@@ -65,3 +65,6 @@ input[type=checkbox]:checked:before {
 ```
 <iframe height='265' scrolling='no' title='NvbRmV' src='//codepen.io/xbl/embed/NvbRmV/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/xbl/pen/NvbRmV/'>NvbRmV</a> by javascript.xie (<a href='https://codepen.io/xbl'>@xbl</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
+
+　　虽然以上已经完成了我们的需求，但毕竟不是W3C的标准，说不定在未来的某一天就会被废除掉，使用这个属性还是要**慎重!**
+
