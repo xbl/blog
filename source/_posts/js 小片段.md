@@ -1,6 +1,11 @@
-# js 小片段
+---
+title: js 小片段（持续更新）
+date: 2015-12-03
+tags: 
+- javascript
+---
 
-### 判断空对象
+### 判断空对象`{}`
 
 ``` javascript
 var isEmptyObject = function(obj) {
@@ -10,6 +15,9 @@ var isEmptyObject = function(obj) {
   }
   return true;
 };
+
+// 更加简单的办法
+var isEmpty = Object.keys(obj).length <= 0;
 ```
 
 ### 判断是否是window对象
@@ -50,6 +58,12 @@ if (!Array.isArray) {
 ~~9.9 // 9
 ```
 
+### 不使用函数字符串转数字
+
+```javascript
++'9.9' // 9.9
+```
+
 ### extends 合并对象
 
 ```javascript
@@ -65,8 +79,19 @@ var extends = function(dst) {
 		}
 	}
 	return dst;
-}
+};
+
+// es6已经实现了
+Object.assign({}, obj);
 ```
 
 > 只能合并对象，不包括数组，将后面的对象统统添加到了第一个对象上
+
+### 数组拷贝
+
+```javascript
+var copyArr = [1, 2, 3].slice();
+// or
+var copyArr = Array.apply(Array, [1, 2, 3]);
+```
 

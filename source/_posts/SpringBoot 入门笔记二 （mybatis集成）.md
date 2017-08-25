@@ -55,7 +55,7 @@ public interface CustomerRepository {
 
 `@Mapper`和`@Insert、@Select、@Delete、@Update`都是`mybatis`提供的`annotation`，我们不需要去写service的实现类，只要在接口上加上`annotation`就可以了，只是我们需要`CURD`所有`sql`都写出来才行，貌似`mybatis`并没有提供一个接口帮助我们去完成这项操作。
 
-字段映射也不友好，这一点不如[Nutz](http://nutzam.com/)的设计，要么在方法上配置`@Results`，要么在`xml`中配置，个人觉得在实体类上写注解更加合理。
+字段映射不友好，这一点不如[Nutz](http://nutzam.com/)的设计，在方法上配置`@Results`，或者在`xml`中配置，个人觉得在实体类上写注解更加合理。
 
 ## 文档：
 
