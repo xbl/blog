@@ -95,3 +95,13 @@ var copyArr = [1, 2, 3].slice();
 var copyArr = Array.apply(Array, [1, 2, 3]);
 ```
 
+### copy对象
+
+```javascript
+var obj = {a: 1, b: 2};
+// 简单粗暴，不支持函数
+var copyObj = JSON.parse(JSON.stringify(obj));
+// es6
+var copyObj = { ...obj };
+```
+
