@@ -1,5 +1,5 @@
 ---
-title: vscode常用插件
+title: vscode常用插件（持续更新）
 date: 2017-09-17 10:32:15
 tags:
 ---
@@ -9,8 +9,6 @@ tags:
 　　可以在状态栏中显示完整的文件路径，当文件重名多的时候特别有用。
 
 ![](https://github.com/RoscoP/ActiveFileInStatusBar/raw/master/media/ActiveFileInStatusBar.gif)
-
-
 
 ## [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
@@ -80,7 +78,13 @@ tags:
 
 ## [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 
 
-　　非常不错的git插件，可以查看文件的`history`等...
+　　非常不错的git插件，可以查看文件的`history`等。
 
 ![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/gitlens-preview.gif)
+
+## [TODO Parser](https://marketplace.visualstudio.com/items?itemName=minhthai.vscode-todo-parser)
+
+　　在代码中快速找到`TODO`的位置。
+
+![](https://github.com/kantlove/vscode-todo-parser/raw/master/images/demo_vscode1.2.gif)
 
