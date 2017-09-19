@@ -6,13 +6,13 @@ tags:
 - angular
 ---
 
-　　`cnpm`的坑，安装都不会有问题，但允许`npm test`就会报错：
+　　`cnpm`有坑！安装不会有问题，运行`npm test`会报错：
 
 ```shell
 jasmineRequire is not defined
 ```
 
-　　覆盖率和正确率报告出不过来，解决办法只要使用`npm install`或者使用`yarn`
+　　覆盖率和正确率报告出不过来，解决办法只要使用`npm install`或者使用`yarn install`就好了
 
 https://github.com/angular/angular-cli/issues/6136
 
@@ -37,7 +37,7 @@ https://github.com/taras42/karma-jasmine-html-reporter/issues/24
 > - Lazy loading is not yet supported, but coming very soon. Currently lazy loaded routes aren't available for prerendering, and you will get a `System is not defined` error.
 > - The bundle produced has a hash in the filename from webpack. When deploying this to a production server, you will need to ensure the correct bundle is required, either by renaming the file or passing the bundle name as an argument to your server.
 
-我还是帮大家google翻译一下：
+我还是帮大家翻译一下：
 
 > ## 警告
 >
