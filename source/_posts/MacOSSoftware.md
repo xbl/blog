@@ -18,6 +18,10 @@ tags:
 
 一款解压缩软件，支持`Zip`,`RAR`,`7-zip`等格式，只要在AppStore里找到安装即可。
 
+## [Keka](http://www.kekaosx.com/zh-cn/)
+
+免费开源的解压缩软件，只是图标有些奇怪~
+
 ## [Parallels Client](https://itunes.apple.com/cn/app/parallels-client/id600925318?mt=12)
 
 远程`windows`的客户端，非常好用。
