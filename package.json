@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.3.9"
+    "version": "3.3.8"
   },
   "scripts": {
-    "dev": "hexo generate -w & hexo server",
+    "start": "hexo generate -w & hexo server",
+    "build": "hexo generate",
     "deploy": "hexo deploy",
+    "server": "hexo server",
     "new": "hexo new",
     "clean": "hexo clean"
   },
