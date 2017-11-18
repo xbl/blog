@@ -2,6 +2,7 @@
 title: MacOS常用软件(持续更新)
 date: 2017-09-17 23:28:48
 tags:
+- mac
 ---
 
 > 整理出来的所有软件均为免费或者开源软件，不会有破解软件。
@@ -33,3 +34,8 @@ tags:
 ## [Alfred](https://www.alfredapp.com/)
 
 `Alfred`算上是Mac软件中的神器之一，这是一款收费软件，可以帮你快速打开软件，免费版不能添加工作流，不过还是很不错~O(∩_∩)O哈哈~
+
+## [spectacle](https://www.spectacleapp.com/)
+
+`spectacle`快捷键管理窗口位置的免费开源的软件，日常必不可少的软件。
+
