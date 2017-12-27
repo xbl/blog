@@ -16,7 +16,7 @@ tags:
 
 ## 调试
 
-​	呼出控制台需要使用快捷键`cmd + alt +c`(`ctrl + alt +c` Windows)，我们同样可以使用`console.log`来输出log；
+
 
 ## 导入数据文件
 

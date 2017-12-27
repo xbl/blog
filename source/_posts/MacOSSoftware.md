@@ -33,3 +33,8 @@ tags:
 ## [Alfred](https://www.alfredapp.com/)
 
 `Alfred`算上是Mac软件中的神器之一，这是一款收费软件，可以帮你快速打开软件，免费版不能添加工作流，不过还是很不错~O(∩_∩)O哈哈~
+
+## [Karabiner](https://pqrs.org/osx/karabiner/)
+
+此物算得上是外接键盘的福音，外接键盘 `F1`、`F2`…都不起作用，让外接键盘丧失了很多方便的控制，通过它可以快速帮你映射，即使是 Windows 的键盘映射也非常方便，还可以设置组合键。
+
