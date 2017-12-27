@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false # 渲染草稿箱
-post_asset_folder: false
+post_asset_folder: true # 创建文章时同时创建同名文件夹
 relative_link: false
 future: true
 highlight:
