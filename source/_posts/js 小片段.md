@@ -105,3 +105,22 @@ var copyObj = JSON.parse(JSON.stringify(obj));
 var copyObj = { ...obj };
 ```
 
+### querystring
+
+```javascript
+export const querystring = {
+  parse (str) {
+    const json = {};
+    str.replace(/([^?&=]+)=([^?&=]*)/g, (match, $key, $value) => {
+      json[$key] = decodeURIComponent($value);
+    });
+    return json;
+  },
+  stringify (json) {
+    return Object.keys(json).map(str => str + '=' + json[str]).join('&');
+  }
+};
+```
+
+
+
