@@ -45,4 +45,6 @@ tags:
 
 `spectacle`快捷键管理窗口位置的免费开源的软件，日常必不可少的软件。
 
+## [Kap](https://github.com/wulkano/kap)
 
+免费开源的录屏软件，使用 Electron 开发。可以导出 Gif 、MP4 等格式，很不错~
