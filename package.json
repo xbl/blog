@@ -8,7 +8,7 @@
   "scripts": {
     "start": "hexo generate -w & hexo server",
     "build": "hexo generate",
-    "deploy": "hexo deploy",
+    "publish": "hexo deploy",
     "server": "hexo server",
     "new": "hexo new",
     "clean": "hexo clean"
