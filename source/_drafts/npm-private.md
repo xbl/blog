@@ -15,9 +15,9 @@ tags:
 
 
 
-支持 npm install git 仓库
+Npm 支持安装 git 仓库
 
-支持几种协议： `git` ,  `git+ssh` ,  `git+http` ,  `git+https` , or `git+file`.
+有几种协议： `git` ,  `git+ssh` ,  `git+http` ,  `git+https` , or `git+file`.
 
 ``` shell
 npm install git+<https://xxx.com/private-package.git>
@@ -35,7 +35,7 @@ npm install github:<githubname>/<githubrepo>[#<commit-ish>]
 
 参考官方文档：https://docs.npmjs.com/cli/install
 
-## 方法二：CNPM
+## 方法二：CNPM 私服
 
 
 
@@ -49,6 +49,14 @@ docker-compose up -d
 ```
 
 
+
+
+
+参考：
+
+https://www.zybuluo.com/chris-ren/note/435419
+
+https://segmentfault.com/a/1190000005946580
 
 ## 方法三：Nexus 私服
 
