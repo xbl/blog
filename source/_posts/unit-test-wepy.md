@@ -23,7 +23,7 @@ tags:
 **index.spec.js**
 
 ``` javascript
-import Index from './IndexPage.wpy'
+import IndexPage from './IndexPage.wpy'
 
 test('two plus two is four', () => {
   expect(2 + 2).toBe(4);
