@@ -6,10 +6,10 @@ tags:
 - nodejs
 - 前端
 - 私有模块
-- 伺服
+- 私服
 ---
 
-　　在前端/Nodejs 开发中我们通常会开发出公共的 module，但在企业开发功能模块时并不希望将自己的核心代码发布到 [npmjs.org](https://www.npmjs.com/) 中，虽然 npmjs.org 提供了私有的方法，更多企业还是倾向将代码控制在内网环境中，今天我们来介绍一下npm 私有模块的3种方法。
+　　在前端/Nodejs 开发中我们通常会开发出公共的 module，但在企业开发功能模块时并不希望将自己的核心代码发布到 [npmjs.org](https://www.npmjs.com/) 中，虽然 npmjs.org 提供了私有的方法，更多企业还是倾向将代码控制在内网环境中，今天我们来介绍一下npm 私有模块的3种主流方法。
 
 
 
@@ -210,19 +210,19 @@ docker start nexus
 
 登录之后点击【配置】：
 
-![配置](./npm-private/nexus01.png)
+{% asset_img nexus01.png  配置 %}
 
 ###### 创建存储
 
-![创建存储](./npm-private/nexus02.png)
+{% asset_img nexus02.png  创建存储 %}
 
 ###### 创建Repositories
 
-![创建Repositories](./npm-private/nexus03.png)
+{% asset_img nexus03.png  创建Repositories %}
 
 ###### 创建 npm Repositories
 
-![repositories](./npm-private/nexus04.png)
+{% asset_img nexus04.png  创建Repositories %}
 
 这里可以看到3个npm…难道是他们兄弟多吗？这里需要解释一下
 
@@ -232,7 +232,7 @@ docker start nexus
 
 ###### 创建代理仓库
 
-![npm-proxy](./npm-private/nexus05.png)
+{% asset_img nexus05.png  npm-proxy %}
 
 需要填的就3个字段
 
@@ -244,21 +244,21 @@ docker start nexus
 
 ###### 创建 npm (hosted) 仓库
 
-![npm (hosted) ](./npm-private/nexus06.png)
+{% asset_img nexus06.png  npm (hosted) %}
 
 ###### 创建npm (group) 仓库
 
-![npm (group) ](./npm-private/nexus07.png)
+{% asset_img nexus07.png  npm (group) %}
 
 这里值得注意的是 Members 的顺序，会优先选择我们的 npm-private ,然后再走proxy，即便是重名也会优先下载私服的模块。
 
 #### 创建用户
 
-![npm (hosted) ](./npm-private/nexus08.png)
+{% asset_img nexus08.png  npm (hosted) %}
 
 #### 配置 .npmrc 文件
 
-![npm (hosted) ](./npm-private/nexus09.png)
+{% asset_img nexus09.png  npm (npmrc) %}
 
 复制这个 url 到**.npmrc** 文件
 
@@ -308,4 +308,4 @@ email=xie@xie.com
 
 ## 总结
 
-　　今天为大家介绍了3种主流的 npm 私有包使用方法，大家可以根据团队的情况自行选择，没有最好的方案，只有最适合。欢迎大家批评指正，谢谢！
+　　今天为大家介绍了3种主流的 npm 私有模块使用方法，大家可以根据团队的情况自行选择，没有最好的方案，只有最适合。欢迎大家批评指正，谢谢！
