@@ -176,4 +176,4 @@ npm test
 
 　　我们成功的迈出一小步，虽然还不能支持模板的编译，但调用 Page 和 Component 的methods 和 data 就可以验证我们的大部分逻辑，只要数据是正确的，就可以把错误率降到最低。
 
-　　[wepy-jest](https://github.com/xbl/wepy-jest) 完整代码已经放到了github ，未来会对它做更多的扩展，欢迎大家 fork or star ，如果文中出现错误，环境大家批评指正。
+　　[wepy-jest](https://github.com/xbl/wepy-jest) 完整代码已经放到了github ，未来会对它做更多的扩展，欢迎大家 fork or star ，如果文中出现错误，欢迎大家批评指正。
