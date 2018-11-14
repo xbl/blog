@@ -83,7 +83,7 @@ tags:
 
 ## [raml-mocker](https://github.com/xbl/raml-mocker) 
 
-　　raml-mocker 是一个基于 Raml 使用 Nodejs 开发的 Mock Server 工具，使用 Raml 描述接口中设置 response 的 `example` 指令即可，raml-mocker 会解析 Raml 文件，并启动一个 Mock Server，将  `example` 的内容返回给浏览器。
+　　raml-mocker (https://github.com/xbl/raml-mocker) 是一个基于 Raml 使用 Nodejs 开发的 Mock Server 工具，使用 Raml 描述接口中设置 response 的 `example` 指令即可，raml-mocker 会解析 Raml 文件，并启动一个 Mock Server，将  `example` 的内容返回给浏览器。
 
 ### 开始
 
