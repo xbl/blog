@@ -76,6 +76,13 @@ tags:
 
 
 
+## [Indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+
+缩进显示一条🌈
+
+![](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
+
+
 ## [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 
 
 　　非常不错的git插件，可以查看文件的`history`等。
@@ -88,3 +95,10 @@ tags:
 
 ![](https://github.com/kantlove/vscode-todo-parser/raw/master/images/demo_vscode1.2.gif)
 
+
+
+## [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+检查代码拼写，支持驼峰哦~似乎需要手动开启一下，不过还是很好用的。
+
+![](https://raw.githubusercontent.com/Jason-Rev/vscode-spell-checker/master/client/images/example.gif)
