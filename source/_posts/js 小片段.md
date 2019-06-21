@@ -64,6 +64,14 @@ if (!Array.isArray) {
 +'9.9' // 9.9
 ```
 
+### 字符串转数字，并设置默认值为0
+
+```javascript
+"5" >> 0
+```
+
+这类小技巧需要注意，很容易造成误导，让人们无法判断是 `boolean` 还是 `number` 。
+
 ### extends 合并对象
 
 ```javascript
