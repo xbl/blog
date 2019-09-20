@@ -4,7 +4,7 @@ date: 2019-06-21 16:00:47
 tags:
 ---
 
-最近和测试杠上了，写了的文章都和测试相关。当然，这里的「测试」并不是具体的某个角色，而是验证程序正确性的工作。曾经前端如何 TDD 困扰了我很久。随着时间的推移，前端框架开始成熟，我对前端测试有了更深刻的理解，把我做前端 TDD 的方法分享给大家。
+最近和测试杠上了，写了的文章都和测试相关。当然，这里的「测试」并不是具体的某个角色，而是验证程序正确性的工作。曾经，前端如何 TDD 困扰了我很久，随着时间的推移，前端框架开始成熟，我对前端测试有了更深刻的理解，把我做前端 TDD 的方法分享给大家。
 
 # 理论篇
 
@@ -18,7 +18,7 @@ TDD 能从技术的角度帮我们提高代码质量，使代码执行结果正�
 
 ### TDD 的步骤
 
-![TDD 步骤](https://tva1.sinaimg.cn/large/006y8mN6ly1g6ni262pvkj30xq0r6kjl.jpg)
+![TDD 步骤](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr3fd0kj30xq0r60xp.jpg)
 
 1. 写一个失败的测试
 2. 写一个刚好让测试通过的代码
@@ -101,13 +101,13 @@ it('如果： a = 1 并且 b = 2，当：执行 add()，则：结果是 3', () =
 vue create vue-tdd-demo
 ```
 
-![手动选择](https://i.loli.net/2019/06/21/5d0c8fe246f1c40706.png)
+![手动选择](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr4rz9wj30py04on38.jpg)
 
-![选择 Unit Testing](https://i.loli.net/2019/06/21/5d0c906d0cbaf88756.png)
+![选择 Unit Testing](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr6ei1hj30l20budt8.jpg)
 
 勾选 Unit Testing （单元测试），后面按照自己喜好来选择。
 
-![选择Jest.jpg](https://i.loli.net/2019/06/21/5d0c91452e1f778243.jpg)
+![选择Jest.jpg](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr7lvzqj313k0a677q.jpg)
 
 这里选择 Jest 作为测试框架。
 
@@ -115,7 +115,7 @@ vue create vue-tdd-demo
 
 安装好之后运行 `npm run test:unit` ，刚安装的项目就会报错，真让人惆怅！看看如何解决：
 
-![运行测试报错.png](https://i.loli.net/2019/06/21/5d0c9295afe8d27395.png)
+![运行测试报错.png](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr83kvxj31j00letdn.jpg)
 
 jest.config.js 或者 package.json 中找到 `transformIgnorePatterns` 这个配置
 
@@ -129,7 +129,7 @@ transformIgnorePatterns: [
 
 再运行 `npm run test:unit`
 
-![测试成功.png](https://i.loli.net/2019/06/21/5d0c93aa18c2c56887.png)
+![测试成功.png](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr8xe1qj30k80baq4t.jpg)
 
 
 
@@ -137,7 +137,7 @@ transformIgnorePatterns: [
 
 ### 需求
 
-![需求](http://ww1.sinaimg.cn/large/006tNc79ly1g4dijx6oi7j30ha0beq37.jpg)
+![需求](https://tva1.sinaimg.cn/large/006y8mN6ly1g75pr9t04jj30ha0beaa5.jpg)
 
 > 页面包含用户名、密码输入框和提交按钮，提交之后成功服务端返回状态为 200 然后跳转到 Home 首页，失败则 `alert()` 文字提示。
 >
@@ -234,7 +234,7 @@ describe('Login Page', () => {
 
 运行测试报错，缺少 `@/login/index.vue` 文件
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -284,7 +284,7 @@ describe('Login Page', () => {
 
 来添加需要绑定的对象：
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -367,7 +367,7 @@ trigger 点击事件后调用 `onSubmit` 方法。通过 sinon 制作了一个�
 
 修改代码，添加绑定事件和函数：
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -458,7 +458,7 @@ describe('Login Page', () => {
 
 修改代码，使测试通过：
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -573,7 +573,7 @@ describe('Login Page', () => {
 
 修改代码：
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -653,7 +653,7 @@ describe('Login Page', () => {
 
 修改代码：
 
-```vue
+```html
 <template>
   <ul>
     <li>用户名：<input type="text" class="username" v-model="user.username"></li>
@@ -849,11 +849,11 @@ module.exports = {
 
 运行测试：
 
-![文本测试覆盖率.jpg](https://i.loli.net/2019/06/25/5d11c6634c5bd95109.jpg)
+![文本测试覆盖率.jpg](https://tva1.sinaimg.cn/large/006y8mN6ly1g75prarplbj30vg0e4wh5.jpg)
 
 Html 报告：
 
-![html 测试覆盖率报告.png](https://i.loli.net/2019/06/25/5d11d10039ef532760.png)
+![html 测试覆盖率报告.png](https://tva1.sinaimg.cn/large/006y8mN6ly1g75prb8bqvj313o0c4gn7.jpg)
 
 点开可以看到每一个文件的覆盖，以及是否有逻辑分支忘记测试。
 
@@ -863,7 +863,7 @@ Html 报告：
 
 经过上面的练习，相信大家能对前端如何做 TDD 有一个基本的掌握。即便不使用 TDD，前端的测试也仍然有意义。当然，相信会有一部分同学会对本文产生质疑，国内写前端测试的人 (或者公司) 都很少，更不要说前端 TDD，这样做很花时间，真的值得吗？写完页面让测试同学点一遍不就可以了？为什么一定要去写这么多代码来去验证呢？
 
-本文并不打算去说服你去写测试，以往的工作中没有写过测试，很难通过一篇文章就能让你心动。这如同人们知道健身对自己有好处，但都懒得锻炼。只能采用逼迫方式，让自己动起来，直到有一天发现自己精神饱满、身材健硕，还能 1 个打 8 个，这时才能体会到健身给自己带来的好处。TDD 亦是如此，唯有不断的练习，让行为改变思维，在这个过程中发现它的价值，胜过无数的文章。
+本文并不打算去说服你去写测试，以往的工作中没有写过测试，很难通过一篇文章就能让你心动。这如同人们知道健身对自己有好处，但都懒得锻炼。只能采用逼迫方式，让自己动起来，直到有一天发现自己精神饱满、身材健硕，还能 1 个打 8 个👊，这时才能体会到健身给自己带来的好处。TDD 亦是如此，唯有不断的练习，让行为改变思维，在这个过程中发现它的价值，胜过无数的文章。
 
 
 
