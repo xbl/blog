@@ -10,6 +10,12 @@ tags:
 
 ![](https://github.com/RoscoP/ActiveFileInStatusBar/raw/master/media/ActiveFileInStatusBar.gif)
 
+
+
+在新版的 vscode 已经增加了路径的显示，所以要不要用此插件就看个人喜好了。
+
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g78o2zoarcj30zo0f8wir.jpg)
+
 ## [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 　　文件路径自动补全，在引入文件时非常方便。
@@ -83,9 +89,9 @@ tags:
 ![](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
 
 
-## [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 
+## [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) 
 
-　　非常不错的git插件，可以查看文件的`history`等。
+　　非常不错的git插件，可以按照提交者查看历史，也可查看单文件的提交记录等。
 
 ![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/master/images/gitlens-preview.gif)
 
@@ -102,3 +108,20 @@ tags:
 检查代码拼写，支持驼峰哦~似乎需要手动开启一下，不过还是很好用的。
 
 ![](https://raw.githubusercontent.com/Jason-Rev/vscode-spell-checker/master/client/images/example.gif)
+
+
+
+## [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+适配 `.editorconfig` 文件的插件。
+
+
+
+## [nginx.confi hint](https://marketplace.visualstudio.com/items?itemName=hangxingliu.vscode-nginx-conf-hint)
+
+Nginx 配种文件，语法提示
+
+![](https://raw.githubusercontent.com/hangxingliu/vscode-nginx-conf-hint/master/images/screenshots.gif)
+
+
+
